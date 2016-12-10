@@ -1,0 +1,27 @@
+{
+    "name": "dhii/app-interface",
+    "description": "Interfaces for App",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.3.9 | ^7.0"
+    },
+    "require-dev": {
+        "dhii/php-cs-fixer-config": "dev-php-5.3",
+        "phpunit/phpunit": "4.*",
+        "codeclimate/php-test-reporter": "dev-master",
+        "ptrofimov/xpmock": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dhii\\App\\": "src/"
+        }
+    }
+}
